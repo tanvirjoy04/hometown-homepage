@@ -1,0 +1,110 @@
+body{
+  text-align: center;
+  margin: 0;
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hero-container{
+  /* This creates a 16:9 aspect ratio */
+  aspect-ratio: 16 / 9;
+  width: 100%; /* Ensures it scales with the width of its parent */
+  background-image: url("./tinified/dhaka+new+market+rickshaws+2.webp");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: larger;    
+}
+
+#box-one-title, #box-one-sub{
+  /* border:2px solid red; */
+  text-shadow: 0 0 5px black;
+}
+#box-one-title{
+  background-color: #92140C;
+  font-size:250%;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+#box-one-sub{
+  background-color: #7f7eff;
+  padding: 5px 50px;
+  border-radius: 10px;
+}
+
+.box-two{
+  background-color: #FFCF99;
+  padding: 75px 10px;
+}
+
+#box-two-title{
+  font-size: xx-larger;
+  padding: 10px;
+}
+
+.col-container{
+  /* border:2px solid red; */
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.col-one,
+.col-two,
+.col-three{
+  /* border:2px solid #FFC800; */
+  font-size: x-large;
+}
+
+#hatirjheel-title{
+  /* margin-bottom: 20px; */
+  /* border:3px solid #FF8427; */
+  padding-bottom: 30px;
+}
+
+.col-container img{
+  border-radius: 50%;
+}
+
+.box-three{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border:2px solid blue; */
+}
+
+.business-card-box{
+  display: flex;
+  /* border:2px solid red; */
+  background-color: #FFC800;
+  margin: 150px;
+  width:700px;
+  border-radius: 20px;
+  border-bottom:10px solid #1D3557;
+}
+
+#my-img{
+  border-radius: 50px;
+  width: 800px;
+  margin:50px;
+}
+
+.about-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border:2px solid pink; */
+}
+
+.about-box p{
+  font-size: x-large;
+  padding-right: 30px;
+}
