@@ -122,3 +122,22 @@ body{
   font-size: x-large;
   padding-right: 30px;
 }
+
+.footer{
+  background-color: #CAFFB9;
+  padding: 20px;
+}
+.footer p:hover{
+  font-size: larger;
+  color:red;
+  /* background-color: yellow; */
+}
+#last{
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+a{
+  text-decoration:none;
+  color: unset;
+}
