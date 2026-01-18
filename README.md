@@ -23,4 +23,5 @@ All requirements met.
  🎉, 👏, 🎊, 🎈
 
 Congratulations to me.
-(last 2: hover & new section remaining)
+
+(last 1: new section remaining)

@@ -23,6 +23,14 @@ body{
   color: white;
   font-size: larger;    
 }
+.hero-container:hover{
+  background-image: url("./tinified/Star_Mosque_Dhaka.jpg");
+}
+
+.col-container img:hover{
+  width:300px;
+  height:300px;
+}
 
 #box-one-title, #box-one-sub{
   /* border:2px solid red; */
@@ -38,6 +46,12 @@ body{
   background-color: #7f7eff;
   padding: 5px 50px;
   border-radius: 10px;
+}
+#box-one-title:hover{
+  background-color: #ff8427;
+}
+#box-one-sub:hover{
+  background-color: #531253;
 }
 
 .box-two{
